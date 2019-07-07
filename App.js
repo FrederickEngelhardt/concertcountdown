@@ -24,7 +24,7 @@ class App extends React.Component {
   state = {
     artistName: "Oliver Tree",
     countdown: concertStartDate,
-    currentTime: new Date()
+    currentTime: Date.now()
   };
 
   clock = null;
@@ -38,11 +38,11 @@ class App extends React.Component {
   }
 
   tick = () =>
-    setInterval(() => this.setState({ currentTime: new Date() }), 1000);
+    setInterval(() => this.setState({ currentTime: Date.now() }), 1000);
 
   parseTime = () => {
     const { currentTime } = this.state;
-    const totalTime = concertStartDate.getTime() - currentTime.getTime();
+    const totalTime = concertStartDate.getTime() - currentTime;
 
     const days = Math.floor(totalTime / 1000 / 60 / 60 / 24);
     const daysOffset = totalTime - days * (1000 * 60 * 60 * 24);
@@ -66,7 +66,7 @@ class App extends React.Component {
   };
 
   render() {
-    const { artistName, countdown } = this.state;
+    const { artistName } = this.state;
     return (
       <Fragment>
         <StatusBar barStyle="dark-content" />
