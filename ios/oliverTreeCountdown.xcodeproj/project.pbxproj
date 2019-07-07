@@ -17,6 +17,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* oliverTreeCountdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* oliverTreeCountdownTests.m */; };
 		6FDA3F0B965AF910D75410B5 /* libPods-oliverTreeCountdown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7833A1A37A951999B21A4651 /* libPods-oliverTreeCountdown.a */; };
 		A1008193985F4BD78AE548B3 /* libPods-oliverTreeCountdown-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9527406E2636FD434960A662 /* libPods-oliverTreeCountdown-tvOSTests.a */; };
+		D1C1194322CF03F300ECFAEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C1194222CF03F300ECFAEE /* Images.xcassets */; };
 		F60BB6B98DA2B218FC09A120 /* libPods-oliverTreeCountdownTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C019DB52F30623C0601D9DDE /* libPods-oliverTreeCountdownTests.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		A77F3B54246764E9616D5BC0 /* Pods-oliverTreeCountdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oliverTreeCountdown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oliverTreeCountdown/Pods-oliverTreeCountdown.debug.xcconfig"; sourceTree = "<group>"; };
 		C019DB52F30623C0601D9DDE /* libPods-oliverTreeCountdownTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-oliverTreeCountdownTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCF78038593E2ED2515A271 /* Pods-oliverTreeCountdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oliverTreeCountdown.release.xcconfig"; path = "Pods/Target Support Files/Pods-oliverTreeCountdown/Pods-oliverTreeCountdown.release.xcconfig"; sourceTree = "<group>"; };
+		D1C1194222CF03F300ECFAEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = oliverTreeCountdown/Images.xcassets; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -124,6 +126,7 @@
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				D1C1194222CF03F300ECFAEE /* Images.xcassets */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -336,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				D1C1194322CF03F300ECFAEE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

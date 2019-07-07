@@ -98,7 +98,8 @@ const styles = StyleSheet.create({
   scrollView: {
     height: "100%",
     width: "100%",
-    backgroundColor: "#0f83ff"
+    // backgroundColor: "#0f83ff"
+    backgroundColor: "rgb(45,45,45)"
   },
   container: {
     height: "100%",
@@ -113,7 +114,7 @@ const styles = StyleSheet.create({
     color: "white",
     width: "100%"
   },
-  artistImage: { margin: 15, width: 300, height: 300, borderRadius: 25 },
+  artistImage: { margin: 15, width: 300, height: 300, borderRadius: 200 },
   artistName: {
     textAlign: "center",
     fontWeight: "800",
